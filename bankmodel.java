@@ -22,7 +22,7 @@ public class BankModel{
         Scanner s=new Scanner(System.in);
         int bal=2000;
         int count=0;
-        while(true){
+        while(count<3){
         int password=s.nextInt();
         if(password==1111 || password==2222||password==3333){
             System.out.println("1.Withdrawl\n2.Deposit");
